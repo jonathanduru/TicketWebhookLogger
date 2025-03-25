@@ -7,7 +7,7 @@ It uses:
 - **Flask** – to spin up a simple local server
 - **PostgreSQL** – for storing ticket data
 - **Python requests** – for testing the webhook
-- Environment variables (.env) for secure database credentials
+- **Environment variables (.env)** - for secure database credentials
 
 ---
 
