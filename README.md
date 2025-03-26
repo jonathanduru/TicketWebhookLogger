@@ -1,13 +1,15 @@
 # Ticket Webhook Logger
 
-This project is a lightweight Python webhook receiver that listens for incoming **HTTP POST requests** and logs **ticket resolution data** to a **PostgreSQL** database.
+This project is a lightweight, full-stack webhook solution for logging **ticket resolution data** from **Microsoft Dataverse** into a **PostgreSQL** database using a custom **Flask** API.
 
-It uses:
+It includes:
 
-- **Flask** – to spin up a simple local server
-- **PostgreSQL** – for storing ticket data
-- **Python requests** – for testing the webhook
-- **Environment variables (.env)** - for secure database credentials
+- **Power Automate** — detects when a ticket is marked as "Resolved" and sends a POST request
+- **Flask** — receives and authenticates incoming webhook requests via header token
+- **PostgreSQL** — stores the ticket resolution data in a structured table
+- **Ngrok** — exposes your local Flask app to receive webhooks from Power Automate
+- **Python requests** — for local testing of the webhook with test data
+- **Environment variables (`.env`)** — securely manage DB connection info and webhook secret
 
 ---
 
@@ -20,4 +22,7 @@ It uses:
 
 ---
 
-![Webhook to Postgres Flow](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/images/postgres_webhook_flow.png)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/jonathanduru/TicketWebhookLogger/main/images/WebhookLoggerFlowChart.png" alt="Webhook to Postgres Flow" width="300"/>
+</div>
+
