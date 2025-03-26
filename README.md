@@ -134,6 +134,8 @@ This section explains how to configure a Microsoft Power Automate flow to trigge
 
 > *This step sends the relevant ticket info as JSON to your Flask webhook when the ticket is marked as resolved.*
 
+![Flow Screenshot](https://raw.githubusercontent.com/jonathanduru/TicketWebhookLogger/refs/heads/main/images/HTTP_POST_Flow.png)
+
 ---
 
 **Next:** Test it by resolving a ticket in Dataverse and watch your Flask terminal + database update in real time!
