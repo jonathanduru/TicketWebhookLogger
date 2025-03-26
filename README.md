@@ -23,7 +23,7 @@ It includes:
 ---
 
 > **Demo in Action**  
-> Watch the end-to-end webhook flow in this short animated GIF — Power Platform Ticket Resolved → Flask → PostgreSQL:
+> Watch the end-to-end webhook flow in this GIF — Ticket Resolved → Trigger Flow to Send POST Request→ Flask → PostgreSQL:
 
 ![Webhook to Postgres Flow](https://raw.githubusercontent.com/jonathanduru/TicketWebhookLogger/refs/heads/main/images/webhook-demo2.gif)
 
